@@ -1,7 +1,7 @@
 # personal_portfolio
 A simple personal portfolio page made with HTML and CSS only.
 
-A functioning build of the project can be accessed [here](personal-portifolio.netlify.app).
+A functioning build of the project can be accessed [here](https://personal-portifolio.netlify.app/).
 
 ![image](https://user-images.githubusercontent.com/69646100/156906570-8be62794-f0a5-49eb-8d5b-2e05d6d50718.png)
 
