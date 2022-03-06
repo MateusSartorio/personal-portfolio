@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    color: #f2e9e4;
+}
+
+a {
+    font-style: none;
+}
+
+header {
+    background-color: #780000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    opacity: 85%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: bold;
+    margin: 20px 40px 20px 0px;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+#welcome-section {
+    text-align: center;
+    background-color: #2e3440;
+    height: 100vh;
+}
+
+#welcome-text {
+    transform: translateY(35vh);
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#welcome-description {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    color: #d80303;
+}
+
+#projects {
+    background-color: #4c566a;
+    margin: 0;
+    min-height: 100vh;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+
+#projects h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+#white-line {
+    width: 700px;
+    min-width: 700px;
+    max-width: 700px;
+    height: 5px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    margin-top: 10px;
+}
+
+#project-tiles-div {
+    width: 75vw;
+    margin: 30px auto 0 auto;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.334%;
+}
+
+.project-tile {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    height: 25vh;
+    margin: 0 auto 0 auto;
+    vertical-align: middle;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#projects a {
+    text-decoration: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    color: white;
+    background-color: #2e3440;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#contact {
+    background-color: #2e3440;
+    margin: 0;
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+#contact h2 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding-bottom: 50px;
+    position: relative;
+    top: 40%;
+}
+
+#contact p {
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 40%;
+}
+
+.platforms-div {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    min-width: 350px;
+    max-width: 450px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 40%;
+}
+
+.platforms {
+    margin: 0 auto 0 auto;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.platforms:hover {
+    animation-name: anim;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim {
+    0%   {transform: translateY(0px);}
+    100% {transform: translateY(5px);}
+}
+
+.platforms:not(:hover) {
+    animation-name: anim2;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim2 {
+    0%   {transform: translateY(5px);}
+    100% {transform: translateY(0px);}
+}
+
+#bottom-div {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#horizontal-line {
+    margin: 0;
+    padding: 0;
+    background-color: #780000;
+    height: 8px;
+    width: 100%;
+}
+
+footer {
+    text-align: end;
+    padding: 20px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+@media screen {
+    
+}
